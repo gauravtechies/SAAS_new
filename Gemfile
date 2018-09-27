@@ -36,6 +36,8 @@ gem 'devise', '~> 4.0'
 
 gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
 # Reduces boot times through caching; required in config/boot.rb
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
